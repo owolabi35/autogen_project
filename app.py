@@ -6,7 +6,7 @@ from data_loader import DataLoader
 
 load_dotenv()
 
-print("ok")
+#print("ok")
 
 # Streamlit UI Title
 st.title("📚 Virtual Research Assistant")

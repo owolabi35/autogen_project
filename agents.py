@@ -7,8 +7,8 @@ load_dotenv()
 
 class ResearchAgents:
     def __init__(self, api_key):
-        self.groq_api_key = api_key
-        self.llm_config = {'config_list': [{'model': 'llama-3.3-70b-versatile', 'api_key': self.groq_api_key, 'api_type': "groq"}]}
+        self.groq_api_key = api_key     #llama-3.3-70b-versatile
+        self.llm_config = {'config_list': [{'model': 'deepseek-r1-distill-qwen-32b', 'api_key': self.groq_api_key, 'api_type': "groq"}]}
 
         # Summarizer Agent - Summarizes research papers
         self.summarizer_agent = AssistantAgent(
