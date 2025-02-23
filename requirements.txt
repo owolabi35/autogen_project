@@ -7,3 +7,4 @@ python-dotenv              # Manages environment variables securely
 #transformers               # to calculate get_token_ids.
 scholarly
 autogen
+groq
